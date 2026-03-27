@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(grep -l \"Cursor Automations\\\\|Claude Code Review\" /Users/nozomisato/.claude/skills/ai-market-research/references/*.md)",
+      "Bash(grep -n \"Figma.*Copilot\\\\|Copilot.*Figma\\\\|OpenAI.*Codex Security\\\\|Hugging Face.*Groq\\\\|Notion.*Custom Agent\" /Users/nozomisato/.claude/skills/ai-market-research/references/2026-03-06.md 2>/dev/null | head -20\ngrep -n \"Figma.*Copilot\\\\|OpenAI.*Codex Security\\\\|Hugging Face.*Groq\\\\|Notion.*Custom Agent\" /Users/nozomisato/.claude/skills/ai-market-research/references/2026-03-09.md 2>/dev/null | head -20)",
+      "Bash(grep -n \"Codex Security\\\\|Hugging Face.*Groq\\\\|OpenAI.*container\\\\|Figma.*AI Credits\\\\|Claude $30\" /Users/nozomisato/.claude/skills/ai-market-research/references/2026-03-06.md)",
+      "Bash(grep -n \"Codex Security\\\\|OpenAI.*Security\\\\|Groq\\\\|\\\\$30 billion\\\\|obsolete\" /Users/nozomisato/.claude/skills/ai-market-research/references/2026-03-09.md | head -10)",
+      "WebFetch(domain:llm-stats.com)",
+      "WebFetch(domain:www.notion.com)",
+      "WebFetch(domain:9to5mac.com)",
+      "WebFetch(domain:releasebot.io)",
+      "Bash(gh repo:*)",
+      "WebFetch(domain:zenn.dev)",
+      "Bash(gh auth:*)",
+      "Bash(gh api:*)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''login'''',''''?''''\\), d.get\\(''''name'''',''''?''''\\)\\)\")",
+      "WebFetch(domain:www.labla.org)",
+      "WebFetch(domain:dev.to)",
+      "WebFetch(domain:techstartups.com)",
+      "WebFetch(domain:www.neuralbuddies.com)",
+      "WebFetch(domain:costlayer.ai)",
+      "WebFetch(domain:techcrunch.com)",
+      "Bash(mkdir -p ~/workspace)",
+      "Bash(git clone:*)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(git -C /tmp/ai-market-research log --oneline -5)"
+    ]
+  }
+}

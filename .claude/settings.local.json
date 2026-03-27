@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:llm-stats.com)",
+      "WebFetch(domain:www.cryptointegrat.com)",
+      "WebFetch(domain:www.devflokers.com)",
+      "WebFetch(domain:ragaboutit.com)",
+      "WebFetch(domain:www.digitalapplied.com)",
+      "Bash(ls:*)",
+      "WebFetch(domain:moltbook-ai.com)",
+      "WebFetch(domain:releasebot.io)",
+      "WebFetch(domain:www.glbgpt.com)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git -C /Users/nozomisato/workspace/AI-Market-Research log --oneline -5)"
+    ]
+  }
+}
